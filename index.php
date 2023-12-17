@@ -46,8 +46,8 @@
     <br>
     <div id="reviews">
         <div>
-            <h4>Do conceito à presença online:</h4>
-            <p>desenvolvemos sites que impulsionam o <span>seu negócio</span></p>
+            <h4>Missão:</h4>
+            <p>Criar experiências web excepcionais que impulsionem o digital de nossos clientes. <span>sucesso</span>digital de nossos clientes.</p>
         </div>
         <div>
             <h4>Cada pixel conta uma história:</h4>
