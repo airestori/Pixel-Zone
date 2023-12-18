@@ -47,15 +47,15 @@
     <div id="reviews">
         <div>
             <h4>Missão:</h4>
-            <p>Criar experiências web excepcionais que impulsionem o digital de nossos clientes. <span>sucesso</span>digital de nossos clientes.</p>
+            <p> Criar experiências web excepcionais que impulsionem o sucesso digital de nossos clientes.</p>
         </div>
         <div>
-            <h4>Cada pixel conta uma história:</h4>
-            <p>deixe-nos contar a história de sua marca através do <span>seu site</span></p>
+            <h4>Visão:</h4>
+            <p>Ser reconhecida como líder inovadora no desenvolvimento de sites, moldando o futuro online com criatividade e excelência técnica.</p>
         </div>
         <div>
-            <h4>Transformando ideias em presença digital:</h4>
-            <p>criamos sites que contam a história da <span>sua marca</span></p>
+            <h4>Valores:</h4>
+            <p>Comprometimento com a qualidade, colaboração inspiradora e dedicação ao sucesso dos clientes, guiados pela ética e inovação constante.</p>
         </div>
     </div>
 </section>
@@ -93,10 +93,28 @@
         </div>
     </div>
 </section>
-    <footer>
-            <p>&copy; 2023 Pixel Zone. Criada por 4 amigos: Anna Luísa, Leonam, Stefany e Vitória, unidos pela vontade de transformar o mundo através de sites.</p>
+<footer>
+        <div id="integrantes">
+            <div class="integrante">
+                <img src="imgs/foto-anna.png" alt="Foto de Anna Luísa">
+                <p>Anna Luísa</p>
+            </div>
+            <div class="integrante">
+                <img src="imgs/foto-leonam.png" alt="Foto de Leonam">
+                <p>Leonam</p>
+            </div>
+            <div class="integrante">
+                <img src="imgs/foto-ster.png" alt="Foto de Stefany">
+                <p>Stefany</p>
+            </div>
+            <div class="integrante">
+                <img src="imgs/foto-tori.png" alt="Foto de Vitória">
+                <p>Vitória</p>
+            </div>
         </div>
+        <p>&copy; 2023 Pixel Zone. Criada por 4 amigos: Anna Luísa, Leonam, Stefany e Vitória, unidos pela vontade de transformar o mundo através de sites.</p>
     </footer>
+
 
     </main>
 </body>
