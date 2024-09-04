@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+
+nav {
+  position: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+nav ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 1.25rem;
+}
+nav ul li {
+  font-size: 1.125rem; /* 18px */
+  position: relative;
+}
+
+
+#logo {
+  margin-top: 0px;
+  color: white;
+  font-size: 1.20rem; /* 24px */
+  line-height: 1.75rem;
+  font-weight: bolder;
+}
+
+#login {
+  display: flex;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  border: solid 1px white;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem; /* 14px */
+  line-height: 1.5rem; /* 20px */
+}
+
+#reviews {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  position: relative;
+  bottom: 10rem;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.review-item {
+  width: 100%;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  transition: background-color 0.3s;
+}
+
+.review-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+#toggleReviews {
+  margin-top: 10px;
+}
+
+#heroPage {
+  position: relative;
+  height: 90vh;
+  background-image: url(../imgs/cenario.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#heroPage::after {
+  content: "";
+  background-image: url(../imgs/cenario.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#heroPage h2 {
+  font-weight: 500;
+}
+
+#oferecemos {
+  height: 100vh;
+  padding-top: 2rem;
+  background-color: #202020;
+  text-align: center;
+  position: relative; 
+  z-index: 1;
+}
+
+#oferecemos h3 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+#oferecemos p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card img {
+  width: 18rem;
+  display: block; 
+  margin: 0 auto;
+}
+.card-img-top {
+  object-fit: cover; 
+}
+.card {
+  text-align: center; 
+}
+.card-content {
+  margin-left: 20px; /* Aumentei o espaçamento à esquerda */
+  margin-right: 20px; /* Adicionei espaçamento à direita */
+}
+table,
+th,
+td {
+  font-size: 20px;
+  border: 2px solid #dbd9da;
+  color: #dbd9da;
+  padding: 17px;
+  text-align: center;
+}
+
+th {
+  font-size: 30px;
+}
+
+table {
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+#pixel {
+  padding: 20px;
+}
+
+.container {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+#integrantes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não houver espaço suficiente */
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  gap: 20px;
+}
+
+.integrante {
+  text-align: center;
+  margin: 0.5rem; /* Adiciona um pequeno espaçamento entre os integrantes */
+}
+
+.integrante img {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: 100px;
+  border-radius: 50%; /* Adiciona borda circular */
+  margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+.integrante p {
+  color: white;
+  font-size: 0.8rem;
+}
